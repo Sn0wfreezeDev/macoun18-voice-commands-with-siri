@@ -7,17 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1122D4D221407CB200BD9DA2 /* ShopItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122D4D121407CB200BD9DA2 /* ShopItemDetail.swift */; };
+		114F3ADC2141755000B7BDCD /* ShopItemDetailExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F3ADB2141755000B7BDCD /* ShopItemDetailExtension.swift */; };
+		114F3ADE2141770D00B7BDCD /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 114F3ADD2141770D00B7BDCD /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		11843CF3213DCA210090D801 /* ShopItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11843CF2213DCA210090D801 /* ShopItemCell.swift */; };
+		118CC71621495D0D00FAD194 /* IntentFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 118CC71421495D0D00FAD194 /* IntentFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		118CC71921495D0D00FAD194 /* IntentFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118CC71221495D0D00FAD194 /* IntentFramework.framework */; };
+		118CC71A21495D0D00FAD194 /* IntentFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 118CC71221495D0D00FAD194 /* IntentFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		118CC72121495D2B00FAD194 /* BuyItemIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F3ADF214178F000B7BDCD /* BuyItemIntentHandler.swift */; };
+		118CC72221495D4C00FAD194 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 114F3ADD2141770D00B7BDCD /* Intents.intentdefinition */; };
+		118CC72321495D7500FAD194 /* ShopItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F3AE12141796900B7BDCD /* ShopItemManager.swift */; };
+		118CC72421495DC500FAD194 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11843CF4213DCAE20090D801 /* ShopItem.swift */; };
+		118CC72C2149604300FAD194 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CC72B2149604300FAD194 /* IntentHandler.swift */; };
+		118CC7352149604300FAD194 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118CC7342149604300FAD194 /* IntentsUI.framework */; };
+		118CC7382149604300FAD194 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CC7372149604300FAD194 /* IntentViewController.swift */; };
+		118CC73B2149604300FAD194 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118CC7392149604300FAD194 /* MainInterface.storyboard */; };
+		118CC73F2149604300FAD194 /* DemoIntentExtensionUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 118CC7322149604300FAD194 /* DemoIntentExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		118CC7422149604300FAD194 /* DemoIntentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 118CC7292149604300FAD194 /* DemoIntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		118CC74A2149679F00FAD194 /* IntentFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118CC71221495D0D00FAD194 /* IntentFramework.framework */; };
+		118CC74B214967A400FAD194 /* IntentFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118CC71221495D0D00FAD194 /* IntentFramework.framework */; };
+		118CC74D2149797700FAD194 /* PriceInfoIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CC74C2149797700FAD194 /* PriceInfoIntentHandler.swift */; };
+		11CDAA21214089860079370B /* DonatationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDAA20214089860079370B /* DonatationManager.swift */; };
 		11D14223213DC8CC00B264FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D14222213DC8CC00B264FD /* AppDelegate.swift */; };
-		11D14225213DC8CD00B264FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D14224213DC8CD00B264FD /* ViewController.swift */; };
+		11D14225213DC8CD00B264FD /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D14224213DC8CD00B264FD /* ShopViewController.swift */; };
 		11D14228213DC8CD00B264FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D14226213DC8CD00B264FD /* Main.storyboard */; };
 		11D1422A213DC8CE00B264FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D14229213DC8CE00B264FD /* Assets.xcassets */; };
 		11D1422D213DC8CE00B264FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D1422B213DC8CE00B264FD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		118CC71721495D0D00FAD194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D14217213DC8CC00B264FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118CC71121495D0D00FAD194;
+			remoteInfo = IntentFramework;
+		};
+		118CC73D2149604300FAD194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D14217213DC8CC00B264FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118CC7312149604300FAD194;
+			remoteInfo = DemoIntentExtensionUI;
+		};
+		118CC7402149604300FAD194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D14217213DC8CC00B264FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118CC7282149604300FAD194;
+			remoteInfo = DemoIntentExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		118CC71E21495D0D00FAD194 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				118CC71A21495D0D00FAD194 /* IntentFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118CC7492149604300FAD194 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				118CC73F2149604300FAD194 /* DemoIntentExtensionUI.appex in Embed App Extensions */,
+				118CC7422149604300FAD194 /* DemoIntentExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1122D4D121407CB200BD9DA2 /* ShopItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemDetail.swift; sourceTree = "<group>"; };
+		114F3ADB2141755000B7BDCD /* ShopItemDetailExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemDetailExtension.swift; sourceTree = "<group>"; };
+		114F3ADD2141770D00B7BDCD /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		114F3ADF214178F000B7BDCD /* BuyItemIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyItemIntentHandler.swift; sourceTree = "<group>"; };
+		114F3AE12141796900B7BDCD /* ShopItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemManager.swift; sourceTree = "<group>"; };
+		11843CF2213DCA210090D801 /* ShopItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemCell.swift; sourceTree = "<group>"; };
+		11843CF4213DCAE20090D801 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		118CC71221495D0D00FAD194 /* IntentFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IntentFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		118CC71421495D0D00FAD194 /* IntentFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentFramework.h; sourceTree = "<group>"; };
+		118CC71521495D0D00FAD194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118CC7292149604300FAD194 /* DemoIntentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DemoIntentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		118CC72B2149604300FAD194 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		118CC72D2149604300FAD194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118CC7322149604300FAD194 /* DemoIntentExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DemoIntentExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		118CC7342149604300FAD194 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		118CC7372149604300FAD194 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		118CC73A2149604300FAD194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		118CC73C2149604300FAD194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118CC74C2149797700FAD194 /* PriceInfoIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceInfoIntentHandler.swift; sourceTree = "<group>"; };
+		11CDAA20214089860079370B /* DonatationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonatationManager.swift; sourceTree = "<group>"; };
 		11D1421F213DC8CC00B264FD /* FancyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D14222213DC8CC00B264FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11D14224213DC8CD00B264FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11D14224213DC8CD00B264FD /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		11D14227213DC8CD00B264FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11D14229213DC8CE00B264FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11D1422C213DC8CE00B264FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -25,20 +116,89 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11D1421C213DC8CC00B264FD /* Frameworks */ = {
+		118CC70F21495D0D00FAD194 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		118CC7262149604300FAD194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118CC74A2149679F00FAD194 /* IntentFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118CC72F2149604300FAD194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118CC74B214967A400FAD194 /* IntentFramework.framework in Frameworks */,
+				118CC7352149604300FAD194 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D1421C213DC8CC00B264FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118CC71921495D0D00FAD194 /* IntentFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		118CC71321495D0D00FAD194 /* IntentFramework */ = {
+			isa = PBXGroup;
+			children = (
+				118CC71421495D0D00FAD194 /* IntentFramework.h */,
+				118CC71521495D0D00FAD194 /* Info.plist */,
+				11843CF4213DCAE20090D801 /* ShopItem.swift */,
+				114F3AE12141796900B7BDCD /* ShopItemManager.swift */,
+				114F3ADF214178F000B7BDCD /* BuyItemIntentHandler.swift */,
+				118CC74C2149797700FAD194 /* PriceInfoIntentHandler.swift */,
+			);
+			path = IntentFramework;
+			sourceTree = "<group>";
+		};
+		118CC72A2149604300FAD194 /* DemoIntentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				118CC72B2149604300FAD194 /* IntentHandler.swift */,
+				118CC72D2149604300FAD194 /* Info.plist */,
+			);
+			path = DemoIntentExtension;
+			sourceTree = "<group>";
+		};
+		118CC7332149604300FAD194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				118CC7342149604300FAD194 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		118CC7362149604300FAD194 /* DemoIntentExtensionUI */ = {
+			isa = PBXGroup;
+			children = (
+				118CC7372149604300FAD194 /* IntentViewController.swift */,
+				118CC7392149604300FAD194 /* MainInterface.storyboard */,
+				118CC73C2149604300FAD194 /* Info.plist */,
+			);
+			path = DemoIntentExtensionUI;
+			sourceTree = "<group>";
+		};
 		11D14216213DC8CC00B264FD = {
 			isa = PBXGroup;
 			children = (
 				11D14221213DC8CC00B264FD /* FancyShop */,
+				118CC71321495D0D00FAD194 /* IntentFramework */,
+				118CC72A2149604300FAD194 /* DemoIntentExtension */,
+				118CC7362149604300FAD194 /* DemoIntentExtensionUI */,
+				118CC7332149604300FAD194 /* Frameworks */,
 				11D14220213DC8CC00B264FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +207,9 @@
 			isa = PBXGroup;
 			children = (
 				11D1421F213DC8CC00B264FD /* FancyShop.app */,
+				118CC71221495D0D00FAD194 /* IntentFramework.framework */,
+				118CC7292149604300FAD194 /* DemoIntentExtension.appex */,
+				118CC7322149604300FAD194 /* DemoIntentExtensionUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,18 +218,86 @@
 			isa = PBXGroup;
 			children = (
 				11D14222213DC8CC00B264FD /* AppDelegate.swift */,
-				11D14224213DC8CD00B264FD /* ViewController.swift */,
+				11D14224213DC8CD00B264FD /* ShopViewController.swift */,
+				1122D4D121407CB200BD9DA2 /* ShopItemDetail.swift */,
+				114F3ADB2141755000B7BDCD /* ShopItemDetailExtension.swift */,
+				11843CF2213DCA210090D801 /* ShopItemCell.swift */,
+				11CDAA20214089860079370B /* DonatationManager.swift */,
 				11D14226213DC8CD00B264FD /* Main.storyboard */,
 				11D14229213DC8CE00B264FD /* Assets.xcassets */,
 				11D1422B213DC8CE00B264FD /* LaunchScreen.storyboard */,
 				11D1422E213DC8CE00B264FD /* Info.plist */,
+				114F3ADD2141770D00B7BDCD /* Intents.intentdefinition */,
 			);
 			path = FancyShop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		118CC70D21495D0D00FAD194 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118CC71621495D0D00FAD194 /* IntentFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		118CC71121495D0D00FAD194 /* IntentFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118CC71D21495D0D00FAD194 /* Build configuration list for PBXNativeTarget "IntentFramework" */;
+			buildPhases = (
+				118CC70D21495D0D00FAD194 /* Headers */,
+				118CC70E21495D0D00FAD194 /* Sources */,
+				118CC70F21495D0D00FAD194 /* Frameworks */,
+				118CC71021495D0D00FAD194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntentFramework;
+			productName = IntentFramework;
+			productReference = 118CC71221495D0D00FAD194 /* IntentFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		118CC7282149604300FAD194 /* DemoIntentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118CC7462149604300FAD194 /* Build configuration list for PBXNativeTarget "DemoIntentExtension" */;
+			buildPhases = (
+				118CC7252149604300FAD194 /* Sources */,
+				118CC7262149604300FAD194 /* Frameworks */,
+				118CC7272149604300FAD194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoIntentExtension;
+			productName = DemoIntentExtension;
+			productReference = 118CC7292149604300FAD194 /* DemoIntentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		118CC7312149604300FAD194 /* DemoIntentExtensionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118CC7432149604300FAD194 /* Build configuration list for PBXNativeTarget "DemoIntentExtensionUI" */;
+			buildPhases = (
+				118CC72E2149604300FAD194 /* Sources */,
+				118CC72F2149604300FAD194 /* Frameworks */,
+				118CC7302149604300FAD194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoIntentExtensionUI;
+			productName = DemoIntentExtensionUI;
+			productReference = 118CC7322149604300FAD194 /* DemoIntentExtensionUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		11D1421E213DC8CC00B264FD /* FancyShop */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11D14231213DC8CE00B264FD /* Build configuration list for PBXNativeTarget "FancyShop" */;
@@ -74,10 +305,15 @@
 				11D1421B213DC8CC00B264FD /* Sources */,
 				11D1421C213DC8CC00B264FD /* Frameworks */,
 				11D1421D213DC8CC00B264FD /* Resources */,
+				118CC71E21495D0D00FAD194 /* Embed Frameworks */,
+				118CC7492149604300FAD194 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				118CC71821495D0D00FAD194 /* PBXTargetDependency */,
+				118CC73E2149604300FAD194 /* PBXTargetDependency */,
+				118CC7412149604300FAD194 /* PBXTargetDependency */,
 			);
 			name = FancyShop;
 			productName = FancyShop;
@@ -90,10 +326,20 @@
 		11D14217213DC8CC00B264FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Alexander Heinrich";
 				TargetAttributes = {
+					118CC71121495D0D00FAD194 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					118CC7282149604300FAD194 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					118CC7312149604300FAD194 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					11D1421E213DC8CC00B264FD = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -113,11 +359,36 @@
 			projectRoot = "";
 			targets = (
 				11D1421E213DC8CC00B264FD /* FancyShop */,
+				118CC71121495D0D00FAD194 /* IntentFramework */,
+				118CC7282149604300FAD194 /* DemoIntentExtension */,
+				118CC7312149604300FAD194 /* DemoIntentExtensionUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		118CC71021495D0D00FAD194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118CC7272149604300FAD194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118CC7302149604300FAD194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118CC73B2149604300FAD194 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11D1421D213DC8CC00B264FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,18 +402,77 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		118CC70E21495D0D00FAD194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118CC72421495DC500FAD194 /* ShopItem.swift in Sources */,
+				118CC72321495D7500FAD194 /* ShopItemManager.swift in Sources */,
+				118CC72221495D4C00FAD194 /* Intents.intentdefinition in Sources */,
+				118CC72121495D2B00FAD194 /* BuyItemIntentHandler.swift in Sources */,
+				118CC74D2149797700FAD194 /* PriceInfoIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118CC7252149604300FAD194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118CC72C2149604300FAD194 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118CC72E2149604300FAD194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118CC7382149604300FAD194 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11D1421B213DC8CC00B264FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D14225213DC8CD00B264FD /* ViewController.swift in Sources */,
+				11843CF3213DCA210090D801 /* ShopItemCell.swift in Sources */,
+				11D14225213DC8CD00B264FD /* ShopViewController.swift in Sources */,
 				11D14223213DC8CC00B264FD /* AppDelegate.swift in Sources */,
+				11CDAA21214089860079370B /* DonatationManager.swift in Sources */,
+				114F3ADC2141755000B7BDCD /* ShopItemDetailExtension.swift in Sources */,
+				114F3ADE2141770D00B7BDCD /* Intents.intentdefinition in Sources */,
+				1122D4D221407CB200BD9DA2 /* ShopItemDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		118CC71821495D0D00FAD194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118CC71121495D0D00FAD194 /* IntentFramework */;
+			targetProxy = 118CC71721495D0D00FAD194 /* PBXContainerItemProxy */;
+		};
+		118CC73E2149604300FAD194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118CC7312149604300FAD194 /* DemoIntentExtensionUI */;
+			targetProxy = 118CC73D2149604300FAD194 /* PBXContainerItemProxy */;
+		};
+		118CC7412149604300FAD194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118CC7282149604300FAD194 /* DemoIntentExtension */;
+			targetProxy = 118CC7402149604300FAD194 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		118CC7392149604300FAD194 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				118CC73A2149604300FAD194 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		11D14226213DC8CD00B264FD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -162,6 +492,156 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		118CC71B21495D0D00FAD194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A5U65N39SD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IntentFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = de.heinrich.alexander.IntentFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		118CC71C21495D0D00FAD194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A5U65N39SD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IntentFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = de.heinrich.alexander.IntentFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		118CC7442149604300FAD194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5U65N39SD;
+				INFOPLIST_FILE = DemoIntentExtensionUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = de.heinrich.alexander.FancyShop.DemoIntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		118CC7452149604300FAD194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5U65N39SD;
+				INFOPLIST_FILE = DemoIntentExtensionUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = de.heinrich.alexander.FancyShop.DemoIntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		118CC7472149604300FAD194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5U65N39SD;
+				INFOPLIST_FILE = DemoIntentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = de.heinrich.alexander.FancyShop.DemoIntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		118CC7482149604300FAD194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5U65N39SD;
+				INFOPLIST_FILE = DemoIntentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = de.heinrich.alexander.FancyShop.DemoIntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		11D1422F213DC8CE00B264FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -279,10 +759,12 @@
 		11D14232213DC8CE00B264FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5U65N39SD;
 				INFOPLIST_FILE = FancyShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +779,12 @@
 		11D14233213DC8CE00B264FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5U65N39SD;
 				INFOPLIST_FILE = FancyShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +799,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		118CC71D21495D0D00FAD194 /* Build configuration list for PBXNativeTarget "IntentFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118CC71B21495D0D00FAD194 /* Debug */,
+				118CC71C21495D0D00FAD194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118CC7432149604300FAD194 /* Build configuration list for PBXNativeTarget "DemoIntentExtensionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118CC7442149604300FAD194 /* Debug */,
+				118CC7452149604300FAD194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118CC7462149604300FAD194 /* Build configuration list for PBXNativeTarget "DemoIntentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118CC7472149604300FAD194 /* Debug */,
+				118CC7482149604300FAD194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		11D1421A213DC8CC00B264FD /* Build configuration list for PBXProject "FancyShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
