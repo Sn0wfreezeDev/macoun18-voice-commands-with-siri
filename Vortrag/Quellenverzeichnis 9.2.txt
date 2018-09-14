@@ -1,0 +1,23 @@
+
+=== Quellenverzeichnis und Nutzungsrechte ===
+
+Folie Nr.; Titel; Urheber; Datum; Rechte; Quelle/Link.
+Nutzungsrechte.
+
+
+10: Time Tracking App; Alexander Heinrich; 
+"Für den Vortrag erstellt"
+
+12: Heimautomatisierung; Alexander Heinrich; 
+"Für den Vortrag erstellt"
+
+14: Wohnungssuche; Alexander Heinrich; 
+"Für den Vortrag erstellt"
+
+22: Siri Screenshots Ablauf; Aufgenommen vom iOS Simulator; 
+
+29(2): Versteckte Folie; Screenshot von Xcode
+
+31-38: Screenshot von Xcode;
+
+43: Screenshot von Xcode;
