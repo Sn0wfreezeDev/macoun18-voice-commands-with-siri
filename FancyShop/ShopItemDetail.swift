@@ -80,15 +80,6 @@ class ShopItemDetail: UIViewController {
     }
     
     @IBAction func addPriceRequestToSiri(_ sender: Any) {
-        let intent = PriceInfoIntent()
-        intent.suggestedInvocationPhrase = String(format: "Aktueller Preis für %@", item.name)
-        intent.item = INObject(identifier: String(item.id), display: item.name)
-        
-        guard let shortcut = INShortcut(intent: intent) else {return}
-        let addUI = INUIAddVoiceShortcutViewController(shortcut: shortcut)
-        addUI.modalPresentationStyle = .formSheet
-        addUI.delegate = self
-        self.present(addUI, animated: true, completion: nil)
     }
     
     
@@ -97,7 +88,7 @@ class ShopItemDetail: UIViewController {
     ///
     /// - Parameter sender: any button
     @IBAction func buyNow(_ sender: Any) {
-        let alertC = UIAlertController(title: "Do you want to buy " + item.name, message: "You can buy this item for " + priceLabel.text!, preferredStyle: .alert)
+        let alertC = UIAlertController(title: "Möchten Sie" + item.name + "kaufen?", message: "Sie können das Produkt für " + priceLabel.text! + "kaufen", preferredStyle: .alert)
         alertC.addAction(UIAlertAction(title: "Buy", style: .default, handler: { (_) in
             //Item has been bought
             self.userActivity = DonatationManager.buyingUserAcitivity(forItem: self.item)

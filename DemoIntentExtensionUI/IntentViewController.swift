@@ -25,8 +25,6 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
         switch (interaction.intent) {
         case is BuyIntent:
             self.configureView(withBuyIntent: interaction)
-        case is PriceInfoIntent:
-            self.configureView(withPriceInfoIntent: interaction)
         default:
             break
         }
@@ -52,23 +50,6 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
         }
         
     }
-    
-    func configureView(withPriceInfoIntent interaction: INInteraction) {
-        guard let buyIntent = interaction.intent as? PriceInfoIntent,
-            let itemId = buyIntent.item?.identifier,
-            let id = Int(itemId),
-            let item = ShopItemManager().getItem(withId: id) else {return}
-        
-        let numberFormatter = NumberFormatter()
-        numberFormatter.currencyCode = "EUR"
-        numberFormatter.numberStyle = .currency
-        let priceText = numberFormatter.string(from: NSNumber.init(value: item.price)) ?? "error"
-        
-        if interaction.intentHandlingStatus == .success {
-            messageLabel.text = String(format: "Der Artikel %@ ist aktuell bei %@", item.name, priceText)
-        }
-    }
-    
     
     var desiredSize: CGSize {
         var size = self.extensionContext!.hostedViewMaximumAllowedSize

@@ -24,8 +24,8 @@ public class ShopItem {
     }
     
     public static let defaultItems = [
-        ShopItem(id: 0, name: "Wireless Headphones", price: 129.99, description: "This wireless headphones are great. They use noise cancelling", image: nil),
-        ShopItem(id: 1,name: "USB Cable", price: 10.99, description: "This USB cable is a USB-A to USB-A cable. It is very useless, but looks nice", image: nil),
-        ShopItem(id: 2,name: "Smartphone", price: 1099, description: "An Edge-to-Edge screen. High end computing hardware. A custom calibrated OLED screen", image: nil)
+        ShopItem(id: 0, name: "Kabellose Kopfhörer", price: 129.99, description: "Diese kabellosen Kopfhörer sind super!", image: nil),
+        ShopItem(id: 1,name: "USB Kabel", price: 10.99, description: "Dies ist ein USB-A zu USB-A Kabel. Es hat sehr wenig Anwendungsfälle, aber es sieht gut aus", image: nil),
+        ShopItem(id: 2,name: "Smartphone", price: 1099, description: "Edge-to-Edge Screen! High End CPU und eine famose Kamera", image: nil)
     ]
 }

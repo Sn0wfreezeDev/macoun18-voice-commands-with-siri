@@ -26,7 +26,6 @@
 		118CC7422149604300FAD194 /* DemoIntentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 118CC7292149604300FAD194 /* DemoIntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		118CC74A2149679F00FAD194 /* IntentFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118CC71221495D0D00FAD194 /* IntentFramework.framework */; };
 		118CC74B214967A400FAD194 /* IntentFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118CC71221495D0D00FAD194 /* IntentFramework.framework */; };
-		118CC74D2149797700FAD194 /* PriceInfoIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CC74C2149797700FAD194 /* PriceInfoIntentHandler.swift */; };
 		11CDAA21214089860079370B /* DonatationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDAA20214089860079370B /* DonatationManager.swift */; };
 		11D14223213DC8CC00B264FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D14222213DC8CC00B264FD /* AppDelegate.swift */; };
 		11D14225213DC8CD00B264FD /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D14224213DC8CD00B264FD /* ShopViewController.swift */; };
@@ -104,7 +103,6 @@
 		118CC7372149604300FAD194 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		118CC73A2149604300FAD194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		118CC73C2149604300FAD194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		118CC74C2149797700FAD194 /* PriceInfoIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceInfoIntentHandler.swift; sourceTree = "<group>"; };
 		11CDAA20214089860079370B /* DonatationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonatationManager.swift; sourceTree = "<group>"; };
 		11D1421F213DC8CC00B264FD /* FancyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D14222213DC8CC00B264FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 				11843CF4213DCAE20090D801 /* ShopItem.swift */,
 				114F3AE12141796900B7BDCD /* ShopItemManager.swift */,
 				114F3ADF214178F000B7BDCD /* BuyItemIntentHandler.swift */,
-				118CC74C2149797700FAD194 /* PriceInfoIntentHandler.swift */,
 			);
 			path = IntentFramework;
 			sourceTree = "<group>";
@@ -410,7 +407,6 @@
 				118CC72321495D7500FAD194 /* ShopItemManager.swift in Sources */,
 				118CC72221495D4C00FAD194 /* Intents.intentdefinition in Sources */,
 				118CC72121495D2B00FAD194 /* BuyItemIntentHandler.swift in Sources */,
-				118CC74D2149797700FAD194 /* PriceInfoIntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

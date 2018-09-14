@@ -14,8 +14,6 @@ class IntentHandler: INExtension {
     override func handler(for intent: INIntent) -> Any? {
         if intent is BuyIntent {
             return BuyItemIntentHandler()
-        }else if intent is PriceInfoIntent {
-            return PriceInfoIntentHandler()
         }
         else {
             fatalError("Unhandled intent type: \(intent)")
