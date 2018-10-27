@@ -7,7 +7,7 @@
 		<key>DemoIntentExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<key>DemoIntentExtensionUI.xcscheme</key>
 		<dict>
@@ -19,10 +19,58 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>FancyWatch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>FancyWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>IntentFramework.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+		<key>WatchFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>WatchIntentExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>118CC7282149604300FAD194</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>118CC7312149604300FAD194</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11D1421E213DC8CC00B264FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11D55097214D601500F5F277</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11D550C1214D602200F5F277</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -25,6 +25,10 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>IntentsRestrictedWhileLocked</key>
+			<array>
+				<string>BuyIntent</string>
+			</array>
+			<key>IntentsRestrictedWhileProtectedDataUnavailable</key>
 			<array/>
 			<key>IntentsSupported</key>
 			<array>

@@ -8,7 +8,6 @@
 
 import UIKit
 import Intents
-import IntentsUI
 
 public class BuyItemIntentHandler: NSObject, BuyIntentHandling {
     public func confirm(intent: BuyIntent, completion: @escaping (BuyIntentResponse) -> Void) {

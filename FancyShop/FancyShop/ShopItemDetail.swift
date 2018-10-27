@@ -80,8 +80,19 @@ class ShopItemDetail: UIViewController {
     }
     
     @IBAction func addPriceRequestToSiri(_ sender: Any) {
+        let intent = PriceInfoIntent()
+        intent.suggestedInvocationPhrase = String(format: "Aktueller Preis für %@", item.name)
+        intent.item = INObject(identifier: String(item.id), display: item.name)
+        
+        
+        
+        guard let shortcut = INShortcut(intent: intent) else {return}
+        let addUI = INUIAddVoiceShortcutViewController(shortcut: shortcut)
+        addUI.modalPresentationStyle = .formSheet
+        addUI.delegate = self
+        self.present(addUI, animated: true, completion: nil)
+
     }
-    
     
     
     /// Buy the item now and add a user acitivity if bought

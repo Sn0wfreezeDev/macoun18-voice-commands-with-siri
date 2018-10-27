@@ -15,6 +15,9 @@ class IntentHandler: INExtension {
         if intent is BuyIntent {
             return BuyItemIntentHandler()
         }
+        if intent is PriceInfoIntent {
+            return PriceInfoIntentHandler() 
+        }
         else {
             fatalError("Unhandled intent type: \(intent)")
         }
